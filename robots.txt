@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://astraeos.netlify.app/sitemap.xml
