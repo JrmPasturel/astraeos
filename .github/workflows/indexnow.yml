@@ -1,0 +1,26 @@
+name: Notify search engines
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  indexnow:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Submit AstraéOS pages to IndexNow
+        shell: bash
+        run: |
+          set -euo pipefail
+          KEY="7f3a8d1c92b64e5aa14c780f4d9e2b31"
+          BASE="https://astraeos.netlify.app"
+          for URL in             "$BASE/"             "$BASE/architecture.html"             "$BASE/roadmap.html"             "$BASE/faq.html"
+          do
+            echo "Submitting $URL"
+            curl -fsS --retry 3 --get "https://api.indexnow.org/indexnow"               --data-urlencode "url=$URL"               --data-urlencode "key=$KEY"
+            echo
+          done
