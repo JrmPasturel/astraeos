@@ -10,3 +10,36 @@
 
 .contact-card{display:flex;align-items:center;justify-content:space-between;gap:32px;padding:30px;border:1px solid rgba(119,217,255,.24);border-radius:20px;background:linear-gradient(135deg,rgba(16,25,42,.9),rgba(13,20,34,.78));box-shadow:0 18px 55px rgba(0,0,0,.16)}.contact-card h2{margin:4px 0 8px;font-size:clamp(1.65rem,3vw,2.35rem)}.contact-card p{margin:0;color:var(--muted);max-width:680px}.contact-mail{white-space:nowrap}
 @media(max-width:720px){.contact-card{align-items:flex-start;flex-direction:column}.contact-mail{white-space:normal;word-break:break-word}}
+
+/* AstraeOS wordmark v2 */
+.hero h1{
+  font-size:clamp(2.5rem,5.2vw,4.75rem);
+  line-height:1.04;
+  margin:16px 0 22px;
+  letter-spacing:0;
+  overflow:visible;
+}
+.hero h1 span{
+  display:block;
+  white-space:nowrap;
+  font-family:"Michroma","Segoe UI",sans-serif;
+  font-weight:400;
+  letter-spacing:.035em;
+  text-transform:none;
+  font-variant-ligatures:none;
+  background:linear-gradient(90deg,var(--accent),#f4f7ff,var(--accent2));
+  -webkit-background-clip:text;
+  background-clip:text;
+  color:transparent;
+}
+.astrae-portrait img{
+  width:100%;
+  height:auto;
+  aspect-ratio:971/1619;
+  object-fit:cover;
+}
+@media(max-width:560px){
+  .hero h1{font-size:clamp(1.9rem,9.6vw,2.8rem);}
+  .hero h1 span{letter-spacing:.015em;}
+}
+/* end AstraeOS wordmark v2 */
