@@ -72,8 +72,14 @@
 .astrae-portrait video{
   display:block;
   width:100%;
-  height:auto;
-  aspect-ratio:971/1619;
+  height:550px;
   object-fit:cover;
+  object-position:center top;
+}
+@media(max-width:840px){
+  .astrae-portrait video{height:500px}
+}
+@media(max-width:560px){
+  .astrae-portrait video{height:min(467px,calc((100vw - 36px)*1.66735 - 100px))}
 }
 /* end AstraeOS animated portrait */
