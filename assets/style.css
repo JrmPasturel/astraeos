@@ -67,3 +67,13 @@
   .brand-logo img{height:40px;max-width:235px}
 }
 /* end AstraeOS navbar brand logo */
+
+/* AstraeOS animated portrait */
+.astrae-portrait video{
+  display:block;
+  width:100%;
+  height:auto;
+  aspect-ratio:971/1619;
+  object-fit:cover;
+}
+/* end AstraeOS animated portrait */
