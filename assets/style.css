@@ -84,3 +84,12 @@
   transform:translateZ(0);
 }
 /* end AstraeOS animated portrait */
+
+/* page title SEO fix */
+.page-title{
+  font-size:clamp(2rem,4vw,3rem);
+  letter-spacing:-.04em;
+  line-height:1.15;
+  margin:0 0 16px;
+}
+/* end page title SEO fix */
