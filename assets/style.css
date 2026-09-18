@@ -43,3 +43,27 @@
   .hero h1 span{letter-spacing:.015em;}
 }
 /* end AstraeOS wordmark v2 */
+
+/* AstraeOS navbar brand logo */
+.brand-logo{
+  display:flex;
+  align-items:center;
+  min-height:66px;
+  padding:5px 0;
+  text-decoration:none;
+}
+.brand-logo:hover{text-decoration:none}
+.brand-logo img{
+  display:block;
+  width:auto;
+  height:50px;
+  max-width:330px;
+  object-fit:contain;
+}
+@media(max-width:900px){
+  .brand-logo img{height:46px;max-width:290px}
+}
+@media(max-width:560px){
+  .brand-logo img{height:40px;max-width:235px}
+}
+/* end AstraeOS navbar brand logo */
