@@ -1,5 +1,7 @@
 # AstraéOS (AOS)
 
+**Site officiel : https://astraeos.netlify.app/**
+
 **AstraéOS** is an experimental **AI-native operating system** project exploring native AI agents, persistent memory, local-first capabilities and explicit human control.
 
 > Public repository / website content for the AstraéOS project. The private core and sensitive implementation details are intentionally not exposed here.
@@ -26,7 +28,7 @@ AstraéOS is under active experimental development. Public documentation may evo
 
 ## Search aliases
 
-AstraéOS · AstraeOS · AOS · AI-native operating system · système d’exploitation IA
+AstraéOS · Astraé.OS · AstraeOS · AOS · Astraé · AI-native operating system · système d’exploitation IA
 
 ## Author
 
